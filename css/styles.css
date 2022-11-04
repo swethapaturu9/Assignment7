@@ -1,3 +1,7 @@
+:root {
+  --form-background: rgb(196, 186, 186);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,6 +68,7 @@ body {
   margin-top: 3em;
   margin-right: 3em;
   margin-left: 2px;
+  background-color: var(--form-background);
 }
 
 #btn {
