@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/images/beach.jpeg);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.heading nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e46f44;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+.heading ul {
+  display: flex;
+  list-style-type: none;
+}
+.heading li {
+  padding: 15px;
+}
+.heading a {
+  text-decoration: none;
+}
+.heading a:hover {
+  color: #769abe;
+}
+.heading a:visited {
+  color: #e8aa9b;
+}
+.heading .logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+.subheading {
+  color: #769abe;
+  background-color: #dcd5dc;
+  display: flexbox;
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15em;
+  margin-left: 20em;
+  border-radius: 15%;
+  border-color: #1a385a;
+  padding: 2em;
+  font-family: "Nunito", sans-serif;
+}
+.subheading #title {
+  color: #e46f44;
+  font-family: "Dancing Script", cursive;
+  border-width: 20px;
+}
+
+.input-row {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  margin-top: 3em;
+  margin-right: 3em;
+  margin-left: 2px;
+}
+
+#btn {
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  background-color: #e46f44;
+  color: #dcd5dc;
+  height: 30px;
+  text-align: center;
+  margin-top: 1em;
+  border-radius: 5px;
+  margin-left: 20em;
+}/*# sourceMappingURL=styles.css.map */
