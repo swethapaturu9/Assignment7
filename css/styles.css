@@ -84,4 +84,8 @@ body {
   margin-top: 1em;
   border-radius: 5px;
   margin-left: 20em;
+}
+
+.signup_container {
+  background-color: var(--form-background);
 }/*# sourceMappingURL=styles.css.map */
