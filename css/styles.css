@@ -50,7 +50,7 @@ body {
 
 .subheading {
   color: #769abe;
-  background-color: #dcd5dc;
+  background-color: rgba(220, 213, 220, 0.9);
   display: flexbox;
   width: 60%;
   align-items: center;

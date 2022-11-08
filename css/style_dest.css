@@ -86,6 +86,7 @@
 body {
   background-color: #dcd5dc;
   color: #1a385a;
+  color: set-color;
 }
 
 img {

@@ -35,7 +35,9 @@ body
 .subheading
 {
    color: $secondary-color;
-   background-color: #dcd5dc;
+   background-color:  transparentize(#dcd5dc, 0.1); // #dcd5dc;
+
+   
    //opacity: .8;
    display: flexbox;
    width: 60%;

@@ -60,7 +60,8 @@
 body
 {
   background-color: $third-color;
-  color: $fifth-color;
+  //color: $fifth-color;
+  color: set-text-color(background-color);
 
 
 }

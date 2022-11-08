@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <title>Packages</title>
+    
 </head>
 <body>
 
@@ -90,12 +92,12 @@
 
     <footer>
         <div id="dark-mode">
-            <span id="text-dm"> Switch to Dark mode here: </span>  
+            <span id="text-dm"> Switch mode here: </span>  
             <br>
             <br>
 
             <label class="switch">
-                <input name="check" type="checkbox">
+                <input name="check" clicked type="checkbox" onclick="mode( '#1a385a','#dcd5dc')">
                 <span class="slider round"></span>
               </label>
 
@@ -103,6 +105,42 @@
          </div>   
 
     </footer>
+ 
+     <script>
+    
+ 
+
+
+   function mode(dark,light)
+     {
+        alert("Dark Mode");
+
+        var checkbox = document.getElementsByName("check");
+        checkbox.checked = !checkbox.checked;
+
+        if(checkbox.checked)
+         {
+            document.body.style.background = dark;
+           document.body.style.color = light;
+
+         }
+
+        else if(!checkbox.checked)
+          {
+            document.body.style.background = light;
+            document.body.style.color = dark;
+
+
+          }
+
+
+}     
+
+     </script>
+    
+
+
+
     
 
 </body>

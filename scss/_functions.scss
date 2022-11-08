@@ -98,3 +98,25 @@
 
 
 }
+
+
+
+@function set-text-color($color)
+{
+     
+
+     @if($color == $fifth-color)
+        {
+            @return $third-color;
+
+        }
+       
+      @if($color == $third-color)
+        {
+                @return $fifth-color;
+
+        }  
+
+}
+
+
