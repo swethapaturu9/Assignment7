@@ -2,6 +2,10 @@
   --form-background: rgb(196, 186, 186);
 }
 
+:root {
+  --form-background: rgb(196, 186, 186);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +18,79 @@ body {
   line-height: 1.6;
 }
 
+.heading {
+  /*
+  nav
+  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: $fourth-color;
+      font:
+      {
+           size: 20px;
+           family: $font-normal;
+
+      }
+
+  }
+
+  ul
+   {
+          display: flex;
+          list-style-type: none;
+
+
+
+
+   }
+
+
+   li
+   {
+            padding: 15px;
+
+
+   }
+
+   a
+   {
+
+        text-decoration: none;
+
+
+   } 
+
+
+   a:hover
+     {
+
+           color: $secondary-color;
+
+
+     }
+
+     a:visited
+       {
+
+            color: $primary-color;
+
+       }
+
+   .logo
+     {
+
+            font:
+             {
+
+               family: $font-cursive;
+               size: 40px;
+
+              }
+
+
+     } */
+}
 .heading nav {
   display: flex;
   align-items: center;
@@ -33,10 +110,10 @@ body {
   text-decoration: none;
 }
 .heading a:hover {
-  color: #769abe;
+  color: #e46f44;
 }
 .heading a:visited {
-  color: #e8aa9b;
+  color: #e46f44;
 }
 .heading .logo {
   font-family: "Dancing Script", cursive;
@@ -84,8 +161,4 @@ body {
   margin-top: 1em;
   border-radius: 5px;
   margin-left: 20em;
-}
-
-.signup_container {
-  background-color: var(--form-background);
 }/*# sourceMappingURL=styles.css.map */

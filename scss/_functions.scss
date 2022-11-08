@@ -1,0 +1,79 @@
+@import 'config';
+
+
+@mixin navbars
+{
+    nav
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $fourth-color;
+        font:
+        {
+             size: 20px;
+             family: $font-normal;
+
+        }
+       
+    }
+ 
+    ul
+     {
+            display: flex;
+            list-style-type: none;
+            
+ 
+ 
+ 
+     }
+ 
+ 
+     li
+     {
+              padding: 15px;
+              
+ 
+     }
+
+     a
+     {
+
+          text-decoration: none;
+        
+
+     } 
+
+
+     a:hover
+       {
+
+             color: $fourth-color;
+
+
+       }
+
+       a:visited
+         {
+
+              color: $fourth-color;
+
+         }
+
+     .logo
+       {
+
+              font:
+               {
+
+                 family: $font-cursive;
+                 size: 40px;
+               
+                }
+              
+
+       }
+
+
+
+}
