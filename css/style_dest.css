@@ -18,6 +18,26 @@
   transition: 0.4s;
 }
 
+/*
+@function set-text-color($color)
+{
+
+
+     @if($color == $fifth-color)
+        {
+            @return $third-color;
+
+        }
+
+      @if($color == $third-color)
+        {
+                @return $fifth-color;
+
+        }  
+
+}
+
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -85,8 +105,7 @@
 
 body {
   background-color: #dcd5dc;
-  color: #1a385a;
-  color: set-color;
+  color: set-text-color(background-color);
 }
 
 img {
