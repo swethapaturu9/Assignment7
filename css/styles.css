@@ -18,79 +18,6 @@ body {
   line-height: 1.6;
 }
 
-.heading {
-  /*
-  nav
-  {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: $fourth-color;
-      font:
-      {
-           size: 20px;
-           family: $font-normal;
-
-      }
-
-  }
-
-  ul
-   {
-          display: flex;
-          list-style-type: none;
-
-
-
-
-   }
-
-
-   li
-   {
-            padding: 15px;
-
-
-   }
-
-   a
-   {
-
-        text-decoration: none;
-
-
-   } 
-
-
-   a:hover
-     {
-
-           color: $secondary-color;
-
-
-     }
-
-     a:visited
-       {
-
-            color: $primary-color;
-
-       }
-
-   .logo
-     {
-
-            font:
-             {
-
-               family: $font-cursive;
-               size: 40px;
-
-              }
-
-
-     } */
-}
 .heading nav {
   display: flex;
   align-items: center;
@@ -98,6 +25,7 @@ body {
   color: #e46f44;
   font-size: 20px;
   font-family: "Nunito", sans-serif;
+  margin-bottom: 5%;
 }
 .heading ul {
   display: flex;
